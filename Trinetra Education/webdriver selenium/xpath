@@ -1,0 +1,35 @@
+xpath
+1- absolute
+2- relative
+   //tagname[@tagname name='atribute
+
+   absolute-
+      absolute xpath starts from HTML node upto that perticular relavent tag name
+      it starts with single /
+      it is static in nature
+
+      e.g- /html/body/tagname/tagname/tagname....
+
+      relative - dynamic xpath
+
+      it will starts from that perticular block
+      its from //
+      it is dynamic in nature.
+      //tagname[@atribute='atribute_value']
+       //*/tagname[@atribute='atribute_value']
+
+       with and condition
+       //tagname[@atribute='value' and  @atribute='value']
+    eg-//input[@type='text' or
+       with or
+        //tagname[@atribute='value' or  @atribute='value']
+        with contains
+         //tagname[contains@atribute,='value' substring_value ]
+     eg-//input[contains(@type.'pass)]
+
+     with strts with
+
+
+      //*/input[@name='pass]
+      e.g -
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2024-07-07T10:04:07.604833" rpa="false" schemaversion="5">
+<suite id="s1" name="pythonProject1" source="C:\Users\sanji\PycharmProjects\pythonProject1">
+<suite id="s1-s1" name="Robotframework Test" source="C:\Users\sanji\PycharmProjects\pythonProject1\Robotframework Test">
+<suite id="s1-s1-s1" name="TC01" source="C:\Users\sanji\PycharmProjects\pythonProject1\Robotframework Test\TC01.robot">
+<test id="s1-s1-s1-t1" name="LoginTest" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-07T10:04:07.909077" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/loginpagePractise/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-07T10:04:07.907677" elapsed="2.500794"/>
+</kw>
+<kw name="Fill The Login Form">
+<msg time="2024-07-07T10:04:10.414001" level="FAIL">No keyword with name 'Fill The Login Form' found.</msg>
+<status status="FAIL" start="2024-07-07T10:04:10.414001" elapsed="0.000000">No keyword with name 'Fill The Login Form' found.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-07-07T10:04:10.414995" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-07T10:04:07.906369" elapsed="2.509677">No keyword with name 'Fill The Login Form' found.</status>
+</test>
+<status status="FAIL" start="2024-07-07T10:04:07.652740" elapsed="2.764316"/>
+</suite>
+<status status="FAIL" start="2024-07-07T10:04:07.651728" elapsed="2.766326"/>
+</suite>
+<status status="FAIL" start="2024-07-07T10:04:07.605847" elapsed="2.813716"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="pythonProject1">pythonProject1</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Robotframework Test">pythonProject1.Robotframework Test</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="TC01">pythonProject1.Robotframework Test.TC01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
